@@ -1,0 +1,6 @@
+@CommandService_HostAddress = http://localhost:5255
+
+GET {{CommandService_HostAddress}}/commands/
+Accept: application/json
+
+###
